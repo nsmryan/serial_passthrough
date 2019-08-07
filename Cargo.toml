@@ -1,0 +1,10 @@
+[package]
+name = "serial_passthrough"
+version = "0.1.0"
+authors = ["Noah Ryan"]
+edition = "2018"
+
+[dependencies]
+clap = "2.32.0"
+
+serialport = "3.3.0"
