@@ -23,7 +23,7 @@ fn main() {
                   .required(true)
                   .multiple(false)
                   .empty_values(false))
-        .arg(Arg::with_name("OUTSTREAM")
+        .arg(Arg::with_name("OUTPORT")
                   .help("Output serial port")
                   .short("o")
                   .long("output")
